@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/pink-ranger/static/css/main.14a4b81f.css",
-    "main.js": "/pink-ranger/static/js/main.52c7349b.js",
-    "static/media/fun.png": "/pink-ranger/static/media/fun.fdee60bb57421075ce8d.png",
-    "static/media/tired.png": "/pink-ranger/static/media/tired.6b1a3dcc78339e48368c.png",
-    "static/media/blankbg.png": "/pink-ranger/static/media/blankbg.7eb85beddc8a6299c52d.png",
-    "index.html": "/pink-ranger/index.html",
-    "main.14a4b81f.css.map": "/pink-ranger/static/css/main.14a4b81f.css.map",
-    "main.52c7349b.js.map": "/pink-ranger/static/js/main.52c7349b.js.map"
+    "main.css": "/anima-hoitt/static/css/main.732fad7d.css",
+    "main.js": "/anima-hoitt/static/js/main.7ed416ef.js",
+    "static/media/image3.png": "/anima-hoitt/static/media/image3.6f16f8d28b4b830c33f0.png",
+    "static/media/image2.png": "/anima-hoitt/static/media/image2.3d9e53821b0d8c49c8f0.png",
+    "static/media/image1.png": "/anima-hoitt/static/media/image1.67bd427723cafedadcb7.png",
+    "index.html": "/anima-hoitt/index.html",
+    "main.732fad7d.css.map": "/anima-hoitt/static/css/main.732fad7d.css.map",
+    "main.7ed416ef.js.map": "/anima-hoitt/static/js/main.7ed416ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.14a4b81f.css",
-    "static/js/main.52c7349b.js"
+    "static/css/main.732fad7d.css",
+    "static/js/main.7ed416ef.js"
   ]
 }
