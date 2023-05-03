@@ -23,8 +23,8 @@ export default function Nav() {
             </a>
           </li>
           <li>
-            <a class="menu__item" href="/Music">
-              Music
+            <a class="menu__item" href="/Art">
+              Art
             </a>
           </li>
           <li>
@@ -34,8 +34,7 @@ export default function Nav() {
           </li>
           <li>
             <div className="icons">
-              <SocialIcon url="https://www.facebook.com/pinkrangermusic" />
-              <SocialIcon url="https://instagram.com/pinkranger.x?igshid=MWI4MTIyMDE=" />
+              <SocialIcon url="https://instagram.com/animahoitt.art?igshid=YmMyMTA2M2Y=" />
             </div>
           </li>
         </ul>
