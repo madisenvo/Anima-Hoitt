@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/anima-hoitt/static/css/main.866b6006.css",
-    "main.js": "/anima-hoitt/static/js/main.7ed416ef.js",
-    "static/media/image3.png": "/anima-hoitt/static/media/image3.6f16f8d28b4b830c33f0.png",
-    "static/media/image2.png": "/anima-hoitt/static/media/image2.3d9e53821b0d8c49c8f0.png",
-    "static/media/image1.png": "/anima-hoitt/static/media/image1.67bd427723cafedadcb7.png",
-    "index.html": "/anima-hoitt/index.html",
-    "main.866b6006.css.map": "/anima-hoitt/static/css/main.866b6006.css.map",
-    "main.7ed416ef.js.map": "/anima-hoitt/static/js/main.7ed416ef.js.map"
+    "main.css": "/static/css/main.50cdc34c.css",
+    "main.js": "/static/js/main.7ed416ef.js",
+    "static/media/image3.png": "/static/media/image3.6f16f8d28b4b830c33f0.png",
+    "static/media/image2.png": "/static/media/image2.3d9e53821b0d8c49c8f0.png",
+    "static/media/image1.png": "/static/media/image1.67bd427723cafedadcb7.png",
+    "index.html": "/index.html",
+    "main.50cdc34c.css.map": "/static/css/main.50cdc34c.css.map",
+    "main.7ed416ef.js.map": "/static/js/main.7ed416ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.866b6006.css",
+    "static/css/main.50cdc34c.css",
     "static/js/main.7ed416ef.js"
   ]
 }
