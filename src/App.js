@@ -5,21 +5,25 @@ import About from "./pages/about/About.js";
 import Contact from "./pages/contact/Contact.js";
 import Art from "./pages/art/Art.js";
 import Home from "./pages/home/Home.js";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+
 
 
 function App() {
   return (
-    <HashRouter>
+    <Router>
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/About" element={<About />} />
-          <Route path="/Art" element={<Art />} />
-          <Route path="/Contact" element={<Contact />} /> */}
+          <Route path="/about" element={<About />} />
+          <Route path="/art" element={<Art />} />
+        <Route path="/contact" element={<Contact />} /> 
         </Routes>
-        {/* <Footer /> */}
-    </HashRouter>
+    </Router>
   );
 }
 

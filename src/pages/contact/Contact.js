@@ -9,7 +9,7 @@ export default function Contact() {
             <h1 className="contact-header">Contact</h1>
         </div>
         <Button href="mailto:animahoitt1@gmail.com">Click here to email me! </Button>
-        {/* <Form className="form">
+        <Form className="form">
         <Form.Group className="m-3">
             <Form.Label>Name</Form.Label>
             <Form.Control type="text" placeholder="Name" required />
@@ -28,7 +28,7 @@ export default function Contact() {
         <Button className="m-3" type="submit">
             Submit
         </Button>
-        </Form> */}
+        </Form>
     </div>
     );
 }

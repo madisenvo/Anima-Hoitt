@@ -5,30 +5,30 @@ import { SocialIcon } from "react-social-icons";
 
 export default function Nav() {
   return (
-      <div class="hamburger-menu">
+      <div className="hamburger-menu">
         <input id="menu__toggle" type="checkbox" />
-        <label class="menu__btn" for="menu__toggle">
+        <label className="menu__btn" htmlFor="menu__toggle">
           <span></span>
         </label>
 
-        <ul class="menu__box">
+        <ul className="menu__box">
           <li>
-            <a class="menu__item" href="/">
+            <a className="menu__item" href="/">
               Home
             </a>
           </li>
           <li>
-            <a class="menu__item" href="/About">
+            <a className="menu__item" href="/about">
               About
             </a>
           </li>
           <li>
-            <a class="menu__item" href="/Art">
+            <a className="menu__item" href="/art">
               Art
             </a>
           </li>
           <li>
-            <a class="menu__item" href="/Contact">
+            <a className="menu__item" href="/contact">
               Contact
             </a>
           </li>
