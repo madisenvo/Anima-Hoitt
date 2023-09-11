@@ -1,26 +1,27 @@
 import React, { useState } from 'react';
 import GalleryTabs from '../../components/GalleryTabs/Gallery';
 import Slideshow from '../../components/Slideshow/Slideshow';
+import './art.css';
 
 const Art = () => {
   const [activeTab, setActiveTab] = useState('all');
   
   const printsImages = [
-    './images/print1.jpg',
-    './images/print2.jpg',
-    './images/print3.jpg',
+    '../../images/print1.jpg',
+    '../../images/print2.jpg',
+    '../../images/print3.jpg',
   ];
   
   const animalPortraitsImages = [
-    './images/dog1.jpg',
-    './images/dog2.jpg',
-    './images/dog3.jpg',
+    '../../images/dog1.jpg',
+    '../../images/dog2.jpg',
+    '../../images/dog3.jpg',
   ];
   
   const paintingsImages = [
-    './images/paint1.jpg',
-    './images/paint2.jpg',
-    './images/paint3.jpg',
+    '../../images/paint1.jpg',
+    '../../images/paint2.jpg',
+    '../../images/paint3.jpg',
   ];
 
   const getImageArrayForTab = () => {
@@ -52,8 +53,7 @@ const Art = () => {
   
 
   return (
-    <div>
-      <h1>Gallery Page</h1>
+    <div className="art">
       <GalleryTabs activeTab={activeTab} onChangeTab={setActiveTab} />
       <Slideshow images={getImageArrayForTab()} />
     </div>

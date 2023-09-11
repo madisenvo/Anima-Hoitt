@@ -14,5 +14,8 @@
   }
   
   .gallery-tabs button.active {
-    border-bottom: 2px solid blue; /* Add your active tab styling here */
+    background-color: rgba(235, 207, 233, 0.432);
+    border-radius: 5px;
   }
+
+  

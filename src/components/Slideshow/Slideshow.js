@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
+import "./slideshow.css";
 
 const Slideshow = ({ images }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -20,13 +21,14 @@ const Slideshow = ({ images }) => {
     return () => clearInterval(interval);
   }, [currentImageIndex, images]);
   return (
-    <div className="slideshow">
-      <button onClick={prevSlide}>Previous</button>
+    <div className="slideshow-container">
+      <button className="prev-button" onClick={prevSlide}></button>
       <img
-        src={images[currentImageIndex % images.length]}
+        src={`../../images/${images[currentImageIndex % images.length]}`}
         alt={`Image ${currentImageIndex + 1}`}
+        className="slideshow-image"
       />
-      <button onClick={nextSlide}>Next</button>
+      <button className="next-button" onClick={nextSlide}></button>
     </div>
   );
 };
